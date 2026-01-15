@@ -211,7 +211,7 @@ def _create_results(pgen, cmask, Nsteps):
             var_shape.append(i)
             var_shape.append(j)
 
-        results[var_name] = np.full(var_shape, np.NAN)
+        results[var_name] = np.full(var_shape, np.nan)
 
     return results
 

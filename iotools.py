@@ -475,8 +475,8 @@ def read_AsciiGrid(fname, setnans=True):
     data = np.loadtxt(fname, skiprows=6)
 
     if setnans is True:
-        data[data == nodata] = np.NaN
-        nodata = np.NaN
+        data[data == nodata] = np.nan
+        nodata = np.nan
 
     data = np.array(data, ndmin=2)
 
